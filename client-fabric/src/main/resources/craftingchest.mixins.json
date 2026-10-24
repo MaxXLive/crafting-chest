@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.maxxlive.craftingchest.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"CraftingMenuMixin"
+	],
+	"client": [
+		"client.AbstractRecipeBookScreenMixin",
+		"client.CraftingScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

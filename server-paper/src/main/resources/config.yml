@@ -1,0 +1,6 @@
+# CraftingChestPaperBridge - lets MX Crafting Chest clients use a chest next to a crafting table on a Paper server.
+
+# Only show a chest if the player could also open it by right-clicking it.
+# This asks protection plugins (WorldGuard, GriefPrevention, Lands, ...) with a simulated right-click on the chest,
+# so a crafting table placed outside a claim cannot be used to reach into a protected chest.
+respect-protection: true

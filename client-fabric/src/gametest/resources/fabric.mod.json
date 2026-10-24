@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"id": "craftingchest-test",
+	"version": "1.0.0",
+	"name": "MX Crafting Chest Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"net.maxxlive.craftingchest.test.CraftingChestClientGameTest",
+			"net.maxxlive.craftingchest.test.PaperBridgeClientGameTest"
+		]
+	},
+	"depends": {
+		"craftingchest": "*"
+	}
+}

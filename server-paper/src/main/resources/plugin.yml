@@ -1,0 +1,6 @@
+name: CraftingChestPaperBridge
+version: '${version}'
+main: com.maxxlive.craftingchestbridge.CraftingChestPaperBridge
+api-version: '${minecraftVersion}'
+description: Server-side counterpart of the MX Crafting Chest mod for Paper servers
+authors: [MaxXLive]
